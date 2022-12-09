@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main -print piece of art is useful
- * Return: 1
+ *main - print piece of art is useful
+ *Return: 1
 */
 int main(void)
 {
