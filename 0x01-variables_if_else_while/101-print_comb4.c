@@ -16,8 +16,8 @@ int main(void)
 			for (k = j + 1; k < 58; k++)
 			{
 				putchar(i);
-				pitchar(j);
-				pitchar(k);
+				putchar(j);
+				putchar(k);
 				if (i != 55 || j != 56 || k != 57)
 				{
 					putchar(',');
