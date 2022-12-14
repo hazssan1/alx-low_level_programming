@@ -1,1 +1,1 @@
-putchar
+0-putchar
