@@ -1,1 +1,1 @@
-debigging
+debugging
