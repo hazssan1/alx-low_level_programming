@@ -9,7 +9,6 @@
  *
  * Return: Always 0
  */
-
 int main(void)
 {
 	int a;
@@ -28,5 +27,4 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
-	return (0);
-}
+	return (0);}
