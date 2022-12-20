@@ -16,4 +16,4 @@ int main(void)
 	printf("%s", ptr);
 
 	return (0);
-}
+
