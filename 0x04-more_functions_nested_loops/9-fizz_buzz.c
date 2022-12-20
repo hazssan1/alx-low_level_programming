@@ -9,6 +9,7 @@
  *
  * Return: Always 0
  */
+
 int main(void)
 {
 	int a;
@@ -17,6 +18,8 @@ int main(void)
 	{
 		if (a % 15 == 0)
 			printf("FizzBuzz");
+		else if (a % 3 == 0)
+			 printf("Buzz");
 		else if (a % 5 == 0)
 			printf("Buzz");
 		else
@@ -25,6 +28,6 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
+
 	return (0);
 }
-
