@@ -3,7 +3,6 @@
 /**
  * main-printsthenumbersfrom1-100but
  * formultiplesofthreeprintfizand
- * formultipleoffive print buz
  * butformultipleofboththreeandfiveprintfizbuz
  * Return: 0
  */
