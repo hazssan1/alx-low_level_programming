@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - printsthenumbers from 1-100 but
- * for multiplesofthree print fiz and
- * for multipleoffive print buz
- * but for multiple of both three and five print fizbuz
- * Return: Always 0
+ * main-printsthenumbersfrom1-100but
+ * formultiplesofthreeprintfizand
+ * formultipleoffive print buz
+ * butformultipleofboththreeandfiveprintfizbuz
+ * Return: 0
  */
 int main(void)
 {
