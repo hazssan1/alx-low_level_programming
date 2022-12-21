@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints the numbers from 1-100 but
- * for multiples of three print fizz and
- * for multiple of five print buzz
- * but for multiple of both three and five print fizzbuzz
+ * main - printsthenumbers from 1-100 but
+ * for multiplesofthree print fiz and
+ * for multipleoffive print buz
+ * but for multiple of both three and five print fizbuz
  * Return: Always 0
  */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 		else if (a % 3 == 0)
 		printf("fizBuz");
 		else if (a % 5 == 0)
-		printf("Buzz");
+		printf("Buz");
 		else
 		printf("%i", a);
 		if (a < 100)
