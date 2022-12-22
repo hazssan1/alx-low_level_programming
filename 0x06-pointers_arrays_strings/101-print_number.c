@@ -24,4 +24,3 @@ void print_number(int n)
 
 	_putchar(y % 10 + '0');
 }
-
