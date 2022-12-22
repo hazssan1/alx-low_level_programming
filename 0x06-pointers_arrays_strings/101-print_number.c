@@ -23,4 +23,5 @@ void print_number(int n)
 		print_number(y / 10);
 
 	_putchar(y % 10 + '0');
+}
 
