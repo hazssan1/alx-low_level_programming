@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main-printsthenumbersfrom1-100but
- * formultiplesofthreeprintfizand
- * butformultipleofboththreeandfiveprintfizbuz
- * Return: 0
+ * main - prints the numbers from 1-100 but
+ * for multiples of three print fizz and
+ * but for multiple of both three and five print fizzbuzz
+ * Return: Always 0
  */
+
 int main(void)
 {
 	int a;
@@ -13,15 +14,15 @@ int main(void)
 	for (a = 1; a <= 100; a++)
 	{
 		if (a % 15 == 0)
-		printf("FizBuz");
+			printf("FizzBuzz");
 		else if (a % 3 == 0)
-		printf("fizBuz");
+			printf("Fizz");
 		else if (a % 5 == 0)
-		printf("Buz");
+			printf("Buzz");
 		else
-		printf("%i", a);
+			printf("%i", a);
 		if (a < 100)
-		printf(" ");
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
