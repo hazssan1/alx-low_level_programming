@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * str_checker -check if two strings are identical
