@@ -5,8 +5,8 @@ nclude "main.h"
  * @s1: string_1 base address.
  * @s2: string_2 base address.
  * @i: left index.
- * @j: special index. (joker).
- * Return: 1 if s is palindrome, 0 otherwise.
+ * @j: special index.
+ * Return: 1 if s is palindrome,otherwise 0
  */
 int str_lookout(char *s1, char *s2, int i, int j)
 {
